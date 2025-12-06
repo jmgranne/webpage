@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaqim Maximiliano Granne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="hero">
+        <h1>Joaqim Maximiliano Granne</h1>
+        <p>Concert, event and portrait photographer based in Oslo</p>
+        <a href="#portfolio" class="cta-button">View Portfolio</a>
+        <a href="#contact" class="cta-button secondary">Get In Touch</a>
+    </header>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="image-grid">
+            <img src="assets/photos/Koan @ rampage-17.jpg" alt="Koan at Rampage 17">
+            <img src="assets/photos/linni parkteatret-8.jpg" alt="Linni Parkteatret 8">
+            <img src="assets/photos/DSCF0458.jpg" alt="DSCF0458">
+            <img src="assets/photos/Rubens fav 4_5.jpg" alt="Rubens Fav">
+            <img src="assets/photos/GG Magree-8.jpg" alt="GG Magree 8">
+            <img src="assets/photos/TØFL Joaqim's Blinkskudd-05.jpg" alt="TØFL Blinkskudd 05">
+            <img src="assets/photos/linni tilt -11.jpg" alt="Linni Tilt 11">
+            <img src="assets/photos/Elias Holmenkollen-08.jpg" alt="Elias Holmenkollen">
+            <img src="assets/photos/daywalker-trapp-11.jpg" alt="Daywalker Trapp">
+            <img src="assets/photos/Linni studentkonsert-12.jpg" alt="Linni Studentkonsert">
+            <img src="assets/photos/Koan @ rampage -15.jpg" alt="Koan at Rampage 15">
+            <img src="assets/photos/DSCF0465.jpg" alt="DSCF0465">
+            <img src="assets/photos/Ruben tegnesession 1-1.jpg" alt="Ruben Tegnesession">
+            <img src="assets/photos/GG Magree-1.jpg" alt="GG Magree 1">
+            <img src="assets/photos/linni parkteatret-12.jpg" alt="Linni Parkteatret 12">
+            <img src="assets/photos/TØFL Joaqim's Blinkskudd-27.jpg" alt="TØFL Blinkskudd 27">
+            <img src="assets/photos/Adrian snake-2.jpg" alt="Adrian Snake">
+            <img src="assets/photos/Flybass x Rohaan.jpg" alt="Flybass x Rohaan">
+            <img src="assets/photos/Full lengde deluxe-06.jpg" alt="Full Lengde Deluxe">
+            <img src="assets/photos/kirkebrann-19.jpg" alt="Kirkebrann">
+            <img src="assets/photos/Lukas-15.jpg" alt="Lukas">
+            <img src="assets/photos/rubiks in action 3 BW.jpg" alt="Rubiks in Action BW">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Passionate photographer capturing the energy of live concerts and the essence of individuals through portrait work. With years of experience in Oslo's vibrant scene, I specialize in creating memorable images that tell stories.</p>
+        <ul>
+            <li>Based in Oslo, Norway</li>
+            <li>Available for concerts, events, and portrait sessions</li>
+            <li>Contact me for collaborations and inquiries</li>
+        </ul>
+        <p>Follow me on <a href="https://instagram.com/joaqimgranne" target="_blank" rel="noopener">Instagram</a> for more work.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xvgeqyqp" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Lightbox modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
