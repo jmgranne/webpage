@@ -492,4 +492,9 @@ section h2::after {
     .image-grid {
         grid-template-columns: 1fr;
     }
+
+    .image-grid img {
+        height: auto;
+        object-fit: contain;
+    }
 }
