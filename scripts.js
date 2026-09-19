@@ -63,7 +63,7 @@ setInterval(function() {
 // Masonry grid — set grid-row span based on image aspect ratio
 function getColumnCount() {
     const width = window.innerWidth;
-    if (width <= 480) return 1;
+    if (width <= 480) return 2;
     if (width <= 768) return 2;
     return 3;
 }
